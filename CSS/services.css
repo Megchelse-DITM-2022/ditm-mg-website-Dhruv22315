@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* -- NAV -- */
+.top-div {
+  background-color: red;
+  width: 100%;
+  height: 225px;
+}
+
+.top-div ul {
+}
+
+.top-div ul li {
+  list-style-type: none;
+  margin: 2%;
+  font-size: 2rem;
+}
+
+.top-div ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease 0s;
+}
+
+.top-div ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}

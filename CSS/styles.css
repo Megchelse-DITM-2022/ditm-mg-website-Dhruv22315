@@ -1,0 +1,88 @@
+/* Import the font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap");
+
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  height: 1000px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* -- NAV -- */
+.top-div {
+  background-color: red;
+  width: 100%;
+  margin-top: 0px;
+  height: 200px;
+}
+
+.top-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-size: 2rem;
+}
+
+.top-div ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease 0s;
+}
+
+.top-div ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* -- MAIN -- */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1 {
+  background-color: blue;
+  height: 200px;
+  width: 50vw;
+}
+
+.div1 > img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.div2 {
+  background-color: orange;
+  height: 200px;
+  width: 50vw;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  font-size: 2rem;
+}
